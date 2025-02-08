@@ -196,11 +196,11 @@ function AdminHome() {
 
         <div className="row" style={{ paddingTop: "180px" }}>
           <div className="col-md-2">
-            <div
+            {/* <div
               className="card mx-3 my-5 bg-dark"
               style={{ backgroundColor: "olivedrab", color: "white" }}
-            >
-              <div className="card-body">
+            > */}
+            {/* <div className="card-body">
                 <h5 className="card-title">Monthly Revenue</h5>
                 <h6 className="card-title">Current Month</h6>
                 <h1 className="card-text">₹ {r1 + rev1}</h1>
@@ -209,14 +209,14 @@ function AdminHome() {
                     Refresh
                   </Link>
                 </center>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
 
-            <div
+            {/* <div
               className="card mx-3 my-5 bg-dark"
               style={{ backgroundColor: "olivedrab", color: "white" }}
-            >
-              <div className="card-body">
+            > */}
+            {/* <div className="card-body">
                 <h5 className="card-title">Monthly Revenue</h5>
                 <input type="number" id="input" value="" />
                 <h1 className="card-text">₹ {r2 + rev2}</h1>
@@ -225,18 +225,18 @@ function AdminHome() {
                     Get Revenue
                   </Link>
                 </center>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
 
           <div className="col-md-8">
             <div className="row">
               <div className="col">
-                <div
+                {/* <div
                   className="card mx-3 my-5 bg-dark"
                   style={{ backgroundColor: "olivedrab", color: "white" }}
-                >
-                  <div className="card-body">
+                > */}
+                {/* <div className="card-body">
                     <h5 className="card-title">
                       <center>Vendors count</center>
                     </h5>
@@ -253,15 +253,15 @@ function AdminHome() {
                         Refresh
                       </Link>
                     </center>
-                  </div>
-                </div>
+                  </div> */}
+                {/* </div> */}
               </div>
               <div className="col">
-                <div
+                {/* <div
                   className="card mx-3 my-5 bg-dark"
                   style={{ backgroundColor: "olivedrab", color: "white" }}
-                >
-                  <div className="card-body">
+                > */}
+                {/* <div className="card-body">
                     <h5 className="card-title">
                       <center>Customers count</center>
                     </h5>
@@ -278,15 +278,15 @@ function AdminHome() {
                         Refresh
                       </Link>
                     </center>
-                  </div>
-                </div>
+                  </div> */}
+                {/* </div> */}
               </div>
               <div className="col">
-                <div
+                {/* <div
                   className="card mx-3 my-5 bg-dark"
                   style={{ backgroundColor: "olivedrab", color: "white" }}
-                >
-                  <div className="card-body">
+                > */}
+                {/* <div className="card-body">
                     <h5 className="card-title">
                       <center>Tiffins count</center>
                     </h5>
@@ -302,8 +302,8 @@ function AdminHome() {
                         Refresh
                       </Link>
                     </center>
-                  </div>
-                </div>
+                  </div> */}
+                {/* </div> */}
               </div>
             </div>
             <div style={{ backgroundColor: "white" }}>
@@ -366,37 +366,7 @@ function AdminHome() {
           </div>
 
           <div className="col-md-2">
-            <div
-              className="card mx-3 my-5 bg-dark"
-              style={{ backgroundColor: "olivedrab", color: "white" }}
-            >
-              <div className="card-body">
-                <h5 className="card-title">Yearly Revenue</h5>
-                <h6 className="card-title">Current year</h6>
-                <h1 className="card-text">₹ {r3 + rev3}</h1>
-                <center>
-                  <Link to="#" className="card-link" style={{ color: "white" }}>
-                    Refresh
-                  </Link>
-                </center>
-              </div>
-            </div>
-
-            <div
-              className="card mx-3 my-5 bg-dark"
-              style={{ backgroundColor: "olivedrab", color: "white" }}
-            >
-              <div className="card-body">
-                <h5 className="card-title">Yearly Revenue</h5>
-                <input type="number" id="input" value="" />
-                <h1 className="card-text">₹ {r4 + rev4}</h1>
-                <center>
-                  <Link to="#" className="card-link" style={{ color: "white" }}>
-                    Get Revenue
-                  </Link>
-                </center>
-              </div>
-            </div>
+           
           </div>
         </div>
 

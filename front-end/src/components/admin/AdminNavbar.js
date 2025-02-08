@@ -17,7 +17,7 @@ const clear = ()=>
         <div className="container-fluid" style={{backgroundColor:'olivedrab'}}>
             <Link className="navbar-brand" to="/adminhome">              
               <img src="/images/logo.png" style={{height:75, width:90}}></img>
-              <br/><b> NutriTiff </b>
+              <br/><b> HungerHive </b>
             </Link>            
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,17 +46,13 @@ const clear = ()=>
                 <h6> Feedback/complaints</h6>
               </Link>
 
-              <Link className={`nav-link ${location.pathname === "/"?"active":""} mx-4`} to="/subplans">
-                <h6> Subscription </h6>
-              </Link>
+             
 
               <Link className={`nav-link ${location.pathname === "/"?"active":""} mx-4`} to="/orderhistory">
                 <h6> Order History </h6>
               </Link> 
 
-              <Link className={`nav-link ${location.pathname === "/"?"active":""} mx-4`} to="/subpurchasehistory">
-                <h6> Subscription Purchases </h6>
-              </Link>
+             
 
               <Link className={`nav-link ${location.pathname === "/"?"active":""}`} to="#"
                 style={{marginLeft: 'auto'}}>

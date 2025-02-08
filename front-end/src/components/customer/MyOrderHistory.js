@@ -1,47 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Login from "./Login";
-import { useEffect, useState } from "react";
-import { createNodejsUrl, log } from "../../utils/utils";
+import { createNodejsUrl } from "../../utils/utils";
 import Footer from "./Footer";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import CustomerNavbar2 from "./CustomerNavbar2";
 import bgimage4 from "../../../src/images/bg4.jpg";
 
 function MyOrderHistory() {
-  // var user = sessionStorage.getItem("user");
   var isLoggedIn = sessionStorage.getItem("isLoggedIn");
   var customerId = sessionStorage.getItem("customerId");
 
   const [orders, setOrders] = useState([]);
-  const [order, setOrder] = useState({
-    order_id: 0,
-    tiffin_id: 0,
-    tiffin_name: "",
-    quantity: 0,
-    tiffin_price: 0.0,
-    transaction_id: "",
-    timestamp: "",
-    status: "",
-  });
 
   useEffect(() => {
-    console.log("Inside Component Did Mount");
+    console.log("Fetching order history");
     select();
   }, []);
 
-  useEffect(() => {
-    console.log("Component Did Update is called..");
-  }, [orders, order]);
-
   const select = () => {
-    debugger;
     var id = { customer_id: customerId };
     var helper = new XMLHttpRequest();
     helper.onreadystatechange = () => {
-      debugger;
       if (helper.readyState === 4 && helper.status === 200) {
-        debugger;
         var result = JSON.parse(helper.responseText);
         setOrders(result);
       }
@@ -52,6 +31,21 @@ function MyOrderHistory() {
     helper.send(JSON.stringify(id));
   };
 
+  // Function to convert timestamp to IST and format it in 12-hour format
+  const formatISTTime = (timestamp) => {
+    let date = new Date(timestamp);
+    return new Intl.DateTimeFormat("en-IN", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true,
+      timeZone: "Asia/Kolkata",
+    }).format(date);
+  };
+
   if (isLoggedIn) {
     return (
       <div>
@@ -59,7 +53,6 @@ function MyOrderHistory() {
           style={{
             backgroundImage: `url(${bgimage4})`,
             backgroundAttachment: "fixed",
-            content: "",
             position: "fixed",
             width: "100%",
             height: "100%",
@@ -88,26 +81,24 @@ function MyOrderHistory() {
                 <thead>
                   <tr>
                     <th>Tiffin</th>
-                    <th>Qunantity</th>
+                    <th>Quantity</th>
                     <th>Price</th>
                     <th>Transaction Id</th>
-                    <th>Timestamp</th>
+                    <th>Timestamp (IST)</th>
                     <th>Status</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {orders.map((order) => {
-                    return (
-                      <tr>
-                        <td>{order.tiffin_name}</td>
-                        <td>{order.quantity}</td>
-                        <td>{order.tiffin_price}</td>
-                        <td>{order.transaction_id}</td>
-                        <td>{order.timestamp}</td>
-                        <td>{order.status}</td>
-                      </tr>
-                    );
-                  })}
+                  {orders.map((order, index) => (
+                    <tr key={index}>
+                      <td>{order.tiffin_name}</td>
+                      <td>{order.quantity}</td>
+                      <td>{order.tiffin_price}</td>
+                      <td>{order.transaction_id}</td>
+                      <td>{formatISTTime(order.timestamp)}</td>
+                      <td>{order.status}</td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>

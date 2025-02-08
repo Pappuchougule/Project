@@ -16,7 +16,7 @@ builder.Services.AddDbContext<NutritiffContext>(
 options =>
 {
     options.UseMySql(builder.Configuration.GetConnectionString("NutritiffDB"),
-    Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.40-mysql"));
+    Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.23-mysql"));
 });
 
 builder.Services.AddCors(options =>

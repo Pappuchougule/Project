@@ -212,65 +212,7 @@ function ChangeProfile() {
           <div className="col-md-3"></div>
         </div>
 
-        {/* <h5>
-            <center>
-            <form role="form">
-                <div className="form-group" style={{marginTop:'100px'}}>
-            <div className="table-responsive col-md-6 my-3">
-                <table className="table table-hover table-bordered">
-                    <tbody>
-                        <tr>
-                            <td className='col-md-3'>Name</td>
-                            <td><input type="text" className="form-control" value={name} required="required"
-                                onChange={(e) => {
-                                setName(e.target.value)
-                              }}/></td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td>
-                            <input type="email" className="form-control" value={email} required="required"
-                                onChange={(e) => {
-                                setEmail(e.target.value)
-                              }}/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Mobile</td>
-                            <td><input type="tel" className="form-control" value={mobNo} required="required"
-                            onChange={(e) => {
-                                setMobNo(e.target.value)
-                              }}/></td>
-                        </tr>
-                        <tr>
-                            <td>Home Address</td>
-                            <td><input type="text" className="form-control" value={homeAddress} required="required"
-                            onChange={(e) => {
-                                setHomeAddress(e.target.value)
-                              }}/></td>
-                        </tr>
-                        <tr>
-                            <td>Work Address</td>
-                            <td><input type="text" className="form-control" value={workAddress} required="required"
-                            onChange={(e) => {
-                                setWorkAddress(e.target.value)
-                              }}/></td>
-                        </tr>
-                        <tr aria-rowspan={2}>
-                            <td>Pincode</td>
-                            <td><input type="text" className="form-control" value={pincode} required="required"
-                            onChange={(e) => {
-                                setPincode(e.target.value)
-                              }}/></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            </div>
-                    <button type="submit" onClick={updateProfile} className="btn btn-success">Save Profile</button>
-        </form>
-            </center>
-            </h5> */}
+        
         <Footer />
       </div>
     );

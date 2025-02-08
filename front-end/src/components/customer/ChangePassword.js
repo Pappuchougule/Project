@@ -129,39 +129,6 @@ function ChangePassword() {
           <div className="col-md-3"></div>
         </div>
 
-        {/* <h5>
-                <center>
-                <form role="form">
-                    <div className="form-group" style={{marginTop:'150px'}}>
-                <div className="table-responsive col-md-6 my-3">
-                    <table className="table table-hover table-bordered">
-                        <tbody>
-                            <tr>
-                                <td className='col-md-3'>Current password</td>
-                                <td><input type="password" className="form-control" value={current} required="required"
-                                    onChange={(e) => {
-                                    setCurrent(e.target.value)
-                                  }}/></td>
-                            </tr>
-                            <tr>
-                                <td>New Password</td>
-                                <td>
-                                <input type="password" className="form-control" value={password} required="required"
-                                    onChange={(e) => {
-                                    setPassword(e.target.value)
-                                  }}/>
-                                </td>
-                            </tr>
-                         
-                        </tbody>
-                    </table>
-                </div>
-                </div>
-                        <button type="submit" onClick={changePassword} className="btn btn-success"
-                        style={{marginBottom:'150px'}}>Save</button>
-            </form>
-                </center>
-                </h5> */}
         <Footer />
       </div>
     );

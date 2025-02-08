@@ -163,36 +163,7 @@ function Profile() {
           <div className="col-md-3"></div>
         </div>
 
-        {/* <h5>
-            <center>
-            <div className="table-responsive col-md-6 my-3">
-                <table className="table table-hover table-bordered" style={{marginTop:'75px', marginBottom:'75px'}}>
-                    <tbody>
-                        <tr>
-                            <td className='col-md-2'>Name</td>
-                            <td>{customer.name}</td>
-                        </tr>
-                        <tr>
-                            <td>email</td>
-                            <td>{customer.email}</td>
-                        </tr>
-                        <tr>
-                            <td>mobile</td>
-                            <td>{customer.mob_no}</td>
-                        </tr>
-                        <tr>
-                            <td>address</td>
-                            <td>{customer.home_address}</td>
-                        </tr>
-                        <tr>
-                            <td>Pincode</td>
-                            <td>{customer.pincode}</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            </center>
-            </h5> */}
+        
         <Footer />
       </div>
     );

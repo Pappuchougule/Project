@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import VendorLogin from "./VendorLogin";
 import VendorNavbar from "./VendorNavbar";
 import Footer from "./Footer";
-import { useEffect, useState } from "react";
-import { createDotNetUrl, createNodejsUrl, log } from "../../utils/utils";
+import { createNodejsUrl, log } from "../../utils/utils";
 import bgimage4 from "../../../src/images/bg4.jpg";
 
 function VendorOrderHistory() {
@@ -11,13 +10,6 @@ function VendorOrderHistory() {
   var isLoggedIn = sessionStorage.getItem("vendorLoggedIn");
 
   const [orders, setOrders] = useState([]);
-  const [order, setOrder] = useState({
-    name: 0,
-    tiffin_name: "",
-    quantity: 0,
-    total_price: 0.0,
-    timestamp: "",
-  });
 
   useEffect(() => {
     console.log("Inside Component Did Mount");
@@ -26,25 +18,42 @@ function VendorOrderHistory() {
 
   useEffect(() => {
     console.log("Component Did Update is called..");
-  }, [orders, order]);
+  }, [orders]);
 
   const getMyOrders = () => {
-    debugger;
     var obj = { vendor_id: vendorId };
     var helper = new XMLHttpRequest();
     helper.onreadystatechange = () => {
-      debugger;
       if (helper.readyState === 4 && helper.status === 200) {
-        debugger;
         var result = JSON.parse(helper.responseText);
         log(result);
-        setOrders(result);
+        // Convert timestamps to 12-hour IST format
+        const formattedOrders = result.map((order) => ({
+          ...order,
+          timestamp: formatTimestamp(order.timestamp),
+        }));
+        setOrders(formattedOrders);
       }
     };
     const url = createNodejsUrl("vendor/orderhistory");
     helper.open("POST", url);
     helper.setRequestHeader("Content-Type", "application/json");
     helper.send(JSON.stringify(obj));
+  };
+
+  const formatTimestamp = (timestamp) => {
+    const date = new Date(timestamp);
+    const options = {
+      timeZone: "Asia/Kolkata",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true,
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+    };
+    return new Intl.DateTimeFormat("en-IN", options).format(date);
   };
 
   if (isLoggedIn) {
@@ -54,7 +63,6 @@ function VendorOrderHistory() {
           style={{
             backgroundImage: `url(${bgimage4})`,
             backgroundAttachment: "fixed",
-            content: "",
             position: "fixed",
             width: "100%",
             height: "100%",
@@ -87,21 +95,19 @@ function VendorOrderHistory() {
                     <th>Tiffin</th>
                     <th>Quantity</th>
                     <th>Price</th>
-                    <th>Timestamp</th>
+                    <th>Timestamp (IST)</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {orders.map((order) => {
-                    return (
-                      <tr>
-                        <td>{order.name}</td>
-                        <td>{order.tiffin_name}</td>
-                        <td>{order.quantity}</td>
-                        <td>{order.total_price}</td>
-                        <td>{order.timestamp}</td>
-                      </tr>
-                    );
-                  })}
+                  {orders.map((order, index) => (
+                    <tr key={index}>
+                      <td>{order.name}</td>
+                      <td>{order.tiffin_name}</td>
+                      <td>{order.quantity}</td>
+                      <td>{order.total_price}</td>
+                      <td>{order.timestamp}</td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
@@ -113,7 +119,7 @@ function VendorOrderHistory() {
       </div>
     );
   } else {
-    <VendorLogin />;
+    return <VendorLogin />;
   }
 }
 

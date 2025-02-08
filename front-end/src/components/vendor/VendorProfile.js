@@ -8,8 +8,6 @@ import "react-toastify/dist/ReactToastify.css";
 import { useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import bgimage4 from "../../../src/images/bg4.jpg";
-import { baseurl } from "../baseurl";
-import axios from "axios";
 
 function VendorProfile() {
   const history = useHistory();
@@ -33,9 +31,9 @@ function VendorProfile() {
     console.log("Component Did Update is called..");
   }, [venId, name, address, pincode, email, mobNo, activeStatus]);
 
-  const getMyProfile =async () => {
+  const getMyProfile = () => {
     debugger;
-    var id = { VendorId: vendorId };
+    var id = { vendor_id: vendorId };
     var helper = new XMLHttpRequest();
     helper.onreadystatechange = () => {
       debugger;
@@ -52,22 +50,10 @@ function VendorProfile() {
         setActiveStatus(result[0].active_status);
       }
     };
-    // const url = createNodejsUrl("vendor/getvendorbyid");
-    // helper.open("POST", url);
-    // helper.setRequestHeader("Content-Type", "application/json");
-    // helper.send(JSON.stringify(id));
-    try {
-      const response = await axios.post(
-        `${baseurl}/api/Vendors/getvendorbyid?vendorId=${id}`
-      );
-
-      if (response.status === 200) {
-        setVendor(response.data);
-      }
-    } catch (error) {
-      console.error("Error fetching vendor profile:", error);
-      toast.error("Failed to fetch vendor profile. Please try again.");
-    }
+    const url = createNodejsUrl("vendor/getvendorbyid");
+    helper.open("POST", url);
+    helper.setRequestHeader("Content-Type", "application/json");
+    helper.send(JSON.stringify(id));
   };
 
   const edit = () => {

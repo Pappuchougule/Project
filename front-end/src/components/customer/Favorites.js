@@ -34,26 +34,7 @@ function Favorites() {
     console.log("Component Did Update is called..");
   }, [tiffins, tiffin]);
 
-  // const select = () =>
-  // {
-  //     debugger;
-  //     var helper = new XMLHttpRequest();
-  //     var creds = {"customer_id":customerId}
-  //     helper.onreadystatechange = ()=>{
-  //         debugger
-  //         if (helper.readyState === 4 && helper.status === 200 )
-  //             {
-  //             debugger;
-  //             var result = JSON.parse(helper.responseText);
-  //             log(result)
-  //             setTiffins(result)
-  //             }
-  //     };
-  //     const url = createNodejsUrl('customer/myfavorites')
-  //     helper.open("GET", url);
-  //     helper.setRequestHeader("Content-Type", "application/json");
-  //     helper.send(JSON.stringify(creds));
-  // }
+  
 
   const select = async () => {
     debugger;

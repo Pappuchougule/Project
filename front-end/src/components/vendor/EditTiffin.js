@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import { useEffect, useState } from "react";
 import VendorLogin from "./VendorLogin";
 import VendorNavbar from "./VendorNavbar";
@@ -62,17 +61,17 @@ function EditTiffin() {
     setCategory(event.target.value);
   };
 
-  const updatetififn = async () => {
+  const updatetififn = () => {
     debugger;
     var tiffin = {
-      TiffinId: tiffinId,
-      TiffinName: tiffinName,
-      Description: description,
-      TiffinCategory: category,
-      TiffinPrice: price,
-      VendorId: vendorId,
-      ImageLink: image,
-      Status: status,
+      tiffin_id: tiffinId,
+      tiffin_name: tiffinName,
+      description: description,
+      tiffin_category: category,
+      tiffin_price: price,
+      vendor_id: vendorId,
+      image_link: image,
+      status: status,
     };
     var helper = new XMLHttpRequest();
     helper.onreadystatechange = () => {
@@ -85,31 +84,10 @@ function EditTiffin() {
         history.push("/mytiffins");
       }
     };
-    
-    try {
-      const response = await axios.put(
-        "http://localhost:7420/api/Vendors/updatetiffin",
-        tiffin,
-        // {
-        //   headers: {
-        //     "Content-Type": "application/json",
-        //   },
-        // }
-      );
-      toast.success("Tiffin updated");
-      history.push("/mytiffins");
-    } catch (error) {
-      console.error("Error adding tiffin:", error);
-      toast.error("Failed to add tiffin. Please try again.");
-    }
-
-
-    // const url = createNodejsUrl("vendor/updatetiffin");
-    // helper.open("PUT", url);
-    // helper.setRequestHeader("Content-Type", "application/json");
-    // helper.send(JSON.stringify(tiffin));
-
-    
+    const url = createNodejsUrl("vendor/updatetiffin");
+    helper.open("PUT", url);
+    helper.setRequestHeader("Content-Type", "application/json");
+    helper.send(JSON.stringify(tiffin));
   };
 
   if (isLoggedIn) {

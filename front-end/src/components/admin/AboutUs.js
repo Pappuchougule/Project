@@ -59,7 +59,7 @@ function AboutUs() {
           <h1> <b>About Us</b></h1>
           <br />
           <p style={{ fontSize: "18px", fontFamily: "-moz-initial" }}>
-           <b> "Welcome to NutriTiff, Where Taste Meets Convenience! Experience
+           <b> "Welcome to HungerHive, Where Taste Meets Convenience! Experience
             delicious and wholesome tiffin delivery, tailored to nourish your busy
             lifestyle." </b>
           </p>
@@ -82,7 +82,7 @@ function AboutUs() {
             <li style={{ fontSize: "17px", fontFamily: "-moz-initial" }}>
               <strong>Flexibility:</strong> Whether you're looking for the
               convenience of a personalized meal schedule or prefer to choose your
-              dishes on the go, NutriTiff caters to your individual dining
+              dishes on the go, HungerHive caters to your individual dining
               preferences.
             </li>
   
@@ -96,7 +96,7 @@ function AboutUs() {
           </ul>
           <br />
           <p style={{ fontSize: "17px", fontFamily: "-moz-initial" }}>
-            Thank you for considering NutriTiff. We are excited to serve you and
+            Thank you for considering HungerHive. We are excited to serve you and
             make your mealtime a delightful experience.
           </p>
         </div>

@@ -45,16 +45,7 @@ function SubscriptionPlans() {
   const remove = (id) => {
     debugger;
     const planId = { plan_id: id };
-    // const url = createNodejsUrl('admin/deleteplan')
-    // axios.delete(url,
-    //     {
-    //         "plan_id": id
-    //     })
-    // .then(res =>{
-    //   debugger
-    //   log(res.data)
-    //   getAllPlans();
-    // })
+
 
     var helper = new XMLHttpRequest();
     helper.onreadystatechange = () => {

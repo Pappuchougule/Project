@@ -9,10 +9,10 @@ const Footer = () =>
                 <center>
                 <div className="row">
                     <div className="col my-3">
-                        <h4>NutriTiff</h4>
+                        <h4>HungerHive</h4>
                         <ul className="list-unstyled">
-                            <li>987-654-3210</li>
-                            <li>ShivajiNagar, Pune</li>
+                            <li>999-999-9999</li>
+                            <li>Shivaji Nagar, Pune</li>
                             <li></li>
                         </ul>
                     </div>
@@ -28,7 +28,7 @@ const Footer = () =>
                 <div className="row">
                     <center>
                         <p className="col-sm">
-                            &copy;{new Date().getUTCFullYear()} NutriTiff Inc | All rights reserved | Terms of Service | Privacy
+                            &copy;{new Date().getUTCFullYear()} HungerHive Inc | All rights reserved | Terms of Service | Privacy
                         </p>
                     </center>
                 </div>

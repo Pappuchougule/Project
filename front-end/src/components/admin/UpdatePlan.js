@@ -34,16 +34,6 @@ function UpdatePlan() {
   const getPlanById = async (id) => {
     debugger;
     var planId = { id: id };
-    // const url = createNodejsUrl('admin/getplanbyid')
-    // axios.post(url, {"id":id})
-    // .then(res =>{
-    // debugger
-    // log(res.data)
-    // setPlan(res.data.name)
-    // setDescription(res.data.description)
-    // setPrice(res.data.price)
-    // setNoOfMeals(res.data.noOfMeals)
-    // })
 
     var helper = new XMLHttpRequest();
     helper.onreadystatechange = () => {

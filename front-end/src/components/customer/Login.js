@@ -35,11 +35,7 @@ function Login() {
           sessionStorage.setItem("customerId", customerId);
           toast.success("Logged in sucessfully");
           history.push("/");
-          // } else
-          // {
-          //   console.log("Invalid creds...");
-          //   toast.error("Invalid credentials")
-          // }
+         
         }
       } else {
       }

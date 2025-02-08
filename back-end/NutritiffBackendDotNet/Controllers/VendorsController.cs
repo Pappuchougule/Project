@@ -83,7 +83,7 @@ namespace NutritiffBackendDotNet.Controllers
         //5
         //To add new tiffin
         [HttpPost("addtiffin")]
-        public ActionResult<Tiffin> AddTiffin( Tiffin tiffin)
+        public ActionResult<Tiffin> AddTiffin([FromBody] Tiffin tiffin)
         {
             _context.Tiffins.Add(tiffin);
             _context.SaveChanges();
@@ -106,8 +106,8 @@ namespace NutritiffBackendDotNet.Controllers
 
         //7
         //To edit tiffin details
-        [HttpPut("updatetiffin")]
-        public ActionResult<Tiffin> UpdateTiffin(Tiffin tiffin)
+        [HttpPatch("updatetiffin")]
+        public ActionResult<Tiffin> UpdateTiffin([FromBody] Tiffin tiffin)
         {
             var tiffinToUpdate = _context.Tiffins.FirstOrDefault(
                 t => t.TiffinId == tiffin.TiffinId);
@@ -159,7 +159,7 @@ namespace NutritiffBackendDotNet.Controllers
         //10
         //To get the vendor's details by vendorId
         [HttpPost("getvendorbyid")]
-        public ActionResult<Vendor> GetVendorById( int vendorId)
+        public ActionResult<Vendor> GetVendorById([FromBody] int vendorId)
         {
             var vendor = _context.Vendors.FirstOrDefault(
                 v => v.VendorId == vendorId);
@@ -173,8 +173,8 @@ namespace NutritiffBackendDotNet.Controllers
 
         //11
         //To edit the vendor's details
-        [HttpPut("updateprofile")]
-        public ActionResult<Vendor> UpdateProfile([FromBody]  Vendor vendor)
+        [HttpPatch("updateprofile")]
+        public ActionResult<Vendor> UpdateProfile([FromBody] Vendor vendor)
         {
             var vendorToUpdate = _context.Vendors.FirstOrDefault(
                 v => v.VendorId == vendor.VendorId);

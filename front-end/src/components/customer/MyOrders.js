@@ -1,4 +1,3 @@
-import React from "react";
 import Login from "./Login";
 import { useEffect, useState } from "react";
 import { createNodejsUrl, log } from "../../utils/utils";
@@ -9,21 +8,10 @@ import CustomerNavbar2 from "./CustomerNavbar2";
 import bgimage4 from "../../../src/images/bg4.jpg";
 
 function MyOrders() {
-  // var user = sessionStorage.getItem("user");
   var isLoggedIn = sessionStorage.getItem("isLoggedIn");
   var customerId = sessionStorage.getItem("customerId");
 
   const [orders, setOrders] = useState([]);
-  const [order, setOrder] = useState({
-    order_id: 0,
-    tiffin_id: 0,
-    tiffin_name: "",
-    quantity: 0,
-    tiffin_price: 0.0,
-    transaction_id: "",
-    timestamp: "",
-    status: "",
-  });
 
   useEffect(() => {
     console.log("Inside Component Did Mount");
@@ -32,16 +20,28 @@ function MyOrders() {
 
   useEffect(() => {
     console.log("Component Did Update is called..");
-  }, [orders, order]);
+  }, [orders]);
+
+  const formatTimestamp = (timestamp) => {
+    const date = new Date(timestamp);
+    const options = {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+      hour12: true,
+      timeZone: "Asia/Kolkata", // Properly set to IST
+    };
+    return date.toLocaleString("en-IN", options);
+  };
 
   const select = () => {
-    debugger;
     var id = { customer_id: customerId };
     var helper = new XMLHttpRequest();
     helper.onreadystatechange = () => {
-      debugger;
       if (helper.readyState === 4 && helper.status === 200) {
-        debugger;
         var result = JSON.parse(helper.responseText);
         setOrders(result);
       }
@@ -53,13 +53,10 @@ function MyOrders() {
   };
 
   const cancel = (order_id) => {
-    debugger;
     var orderId = { order_id: order_id };
     var helper = new XMLHttpRequest();
     helper.onreadystatechange = () => {
-      debugger;
       if (helper.readyState === 4 && helper.status === 200) {
-        debugger;
         var result = JSON.parse(helper.responseText);
         log(result);
         toast.success("Order canceled successfully");
@@ -108,7 +105,7 @@ function MyOrders() {
                 <thead>
                   <tr>
                     <th>Tiffin</th>
-                    <th>Qunantity</th>
+                    <th>Quantity</th>
                     <th>Price</th>
                     <th>Transaction Id</th>
                     <th>Timestamp</th>
@@ -117,27 +114,25 @@ function MyOrders() {
                   </tr>
                 </thead>
                 <tbody>
-                  {orders.map((order) => {
-                    return (
-                      <tr>
-                        <td>{order.tiffin_name}</td>
-                        <td>{order.quantity}</td>
-                        <td>{order.tiffin_price}</td>
-                        <td>{order.transaction_id}</td>
-                        <td>{order.timestamp}</td>
-                        <td>{order.status}</td>
-                        <td>
-                          <button
-                            type="button"
-                            className="btn btn-danger"
-                            onClick={() => cancel(order.order_id)}
-                          >
-                            Cancel
-                          </button>
-                        </td>
-                      </tr>
-                    );
-                  })}
+                  {orders.map((order) => (
+                    <tr key={order.order_id}>
+                      <td>{order.tiffin_name}</td>
+                      <td>{order.quantity}</td>
+                      <td>{order.tiffin_price}</td>
+                      <td>{order.transaction_id}</td>
+                      <td>{formatTimestamp(order.timestamp)}</td>
+                      <td>{order.status}</td>
+                      <td>
+                        <button
+                          type="button"
+                          className="btn btn-danger"
+                          onClick={() => cancel(order.order_id)}
+                        >
+                          Cancel
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>

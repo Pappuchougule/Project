@@ -33,20 +33,7 @@ function VendorHome() {
     console.log("Component Did Update is called..");
   }, [orders, order]);
 
-  // const getMyOrders = async() =>
-  // {
-  //   debugger
-  //   const url = createDotNetUrl('api/vendors/myorders')
-  //   axios.post(url,
-  //     {
-  //       vendorId
-  //     })
-  //   .then(res =>{
-  //     debugger
-  //     log(res.data)
-  //     setOrders(res.data)
-  //   })
-  // }
+
 
   const getMyOrders = () => {
     debugger;
@@ -113,7 +100,7 @@ function VendorHome() {
               className="card mx-3 my-5 bg-dark"
               style={{ backgroundColor: "olivedrab", color: "white" }}
             >
-              <div className="card-body">
+              {/* <div className="card-body">
                 <h5 className="card-title">Monthly Revenue</h5>
                 <h6 className="card-title">Current Month</h6>
                 <h1 className="card-text">₹ 14570</h1>
@@ -122,7 +109,7 @@ function VendorHome() {
                     Refresh
                   </Link>
                 </center>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -192,7 +179,7 @@ function VendorHome() {
               className="card mx-3 my-5 bg-dark"
               style={{ backgroundColor: "olivedrab", color: "white" }}
             >
-              <div className="card-body">
+              {/* <div className="card-body">
                 <h5 className="card-title">Yearly Revenue</h5>
                 <h6 className="card-title">Current Year</h6>
                 <h1 className="card-text">₹ 47560</h1>
@@ -201,7 +188,7 @@ function VendorHome() {
                     Refresh
                   </Link>
                 </center>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

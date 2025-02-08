@@ -208,32 +208,6 @@ function Home() {
                     </div>
                   </div>
                 );
-
-                // <div className="col-md-3">
-                // <div className="card" style={{borderRadius:'40px'}}>
-                //     <img src={tiffin.image_link} className="card-img-top" alt="..."
-                //     style={{padding:'10px', borderRadius:'40px'}}/>
-                //     <div className="card-body">
-                //     <div className='row'>
-                //         <div className='col-md-8'>
-                //       <h5 className="card-title">{tiffin.tiffin_name}</h5>
-                //       </div>
-                //       <div className='col-md-4'>
-                //       <h5 className="card-title">₹ {tiffin.tiffin_price}</h5>
-                //       </div>
-                //       </div>
-                //       <p className="card-text">{tiffin.description}</p>
-                //       <center>
-                //       <button type="button" className="btn btn-primary mx-3"
-                //       onClick={()=>addToCart(tiffin.tiffin_id)}>
-                //         Add to cart</button>
-                //       <button type="button" className="btn btn-danger mx-3"
-                //       onClick={()=>like(tiffin.tiffin_id)}>
-                //         Like</button>
-                //       </center>
-                //     </div>
-                //   </div>
-                // </div>
               })}
             </div>
           </div>

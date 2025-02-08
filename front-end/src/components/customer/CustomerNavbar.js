@@ -9,7 +9,7 @@ let location = useLocation();
         <div className="container-fluid" style={{backgroundColor:'olivedrab'}}>
             <Link className="navbar-brand" to="/">              
               <img src="/images/logo.png" style={{height:75, width:90}}></img>
-              <br/><b> NutriTiff </b>
+              <br/><b> HungerHive </b>
             </Link>            
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,9 +26,7 @@ let location = useLocation();
                 <h6> Contact Us </h6>
               </Link>
 
-              {/* <Link className={`nav-link ${location.pathname === "/"?"active":""} mx4`} to="/venfeedback">
-                <h6> Tiffins </h6>
-              </Link> */}
+      
 
               <Link className={`nav-link ${location.pathname === "/"?"active":""}`} to="/login"
                 style={{marginLeft: 'auto'}}>

@@ -1,94 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\",
+  "WorkspaceRootPath": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\controllers\\vendorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:controllers\\vendorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\data\\nutritiffcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:data\\nutritiffcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\vendorbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\vendorbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\tiffin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\tiffin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\subscriptionpurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\subscriptionpurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\subscriptionplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\subscriptionplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\showorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\showorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\orderstodisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\orderstodisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\orderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\orderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\deliveryperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\deliveryperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\deliveryperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\cartbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\cartbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\approvalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\approvalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\ordernew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\ordernew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|c:\\users\\asus\\desktop\\proo\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\controllers\\vendorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:controllers\\vendorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\nutritiffbackenddotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:nutritiffbackenddotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\orderstodisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\orderstodisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\placeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\orderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\orderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\subscriptionpurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\subscriptionpurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\subscriptionplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\subscriptionplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\showorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\showorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\sample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\sample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\feedbackcomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\feedbackcomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\myclassdiagram.cd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:myclassdiagram.cd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\tiffin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\tiffin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\approvalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\approvalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|d:\\tiffinbox project\\tiffin-delivery-and-management-system\\back-end\\nutritiffbackenddotnet\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD12E1-96D6-4C8F-981E-934229DB48D6}|NutritiffBackendDotNet.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,275 +110,313 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NutritiffContext.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Data\\NutritiffContext.cs",
-              "RelativeDocumentMoniker": "Data\\NutritiffContext.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Data\\NutritiffContext.cs",
-              "RelativeToolTip": "Data\\NutritiffContext.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T16:32:18.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminsController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\AdminsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminsController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\AdminsController.cs",
-              "RelativeToolTip": "Controllers\\AdminsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:33:28.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-05T16:20:12.152Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\CustomersController.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\CustomersController.cs",
               "RelativeToolTip": "Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0BAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:32:35.035Z",
+              "WhenOpened": "2025-02-07T15:51:14.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VendorsController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\VendorsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VendorsController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\VendorsController.cs",
-              "RelativeToolTip": "Controllers\\VendorsController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAkwFMAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DeliveryPerson.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\DeliveryPerson.cs",
+              "RelativeDocumentMoniker": "Models\\DeliveryPerson.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\DeliveryPerson.cs",
+              "RelativeToolTip": "Models\\DeliveryPerson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:33:06.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T16:23:47.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Tiffin.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Tiffin.cs",
-              "RelativeDocumentMoniker": "Models\\Tiffin.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Tiffin.cs",
-              "RelativeToolTip": "Models\\Tiffin.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAEwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:16:51.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SubscriptionPurchase.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\SubscriptionPurchase.cs",
-              "RelativeDocumentMoniker": "Models\\SubscriptionPurchase.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\SubscriptionPurchase.cs",
-              "RelativeToolTip": "Models\\SubscriptionPurchase.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:16:52.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Vendor.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Vendor.cs",
-              "RelativeDocumentMoniker": "Models\\Vendor.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Vendor.cs",
-              "RelativeToolTip": "Models\\Vendor.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:17:33.099Z"
+              "WhenOpened": "2025-02-07T16:19:58.094Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "VendorBody.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\VendorBody.cs",
-              "RelativeDocumentMoniker": "Models\\VendorBody.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\VendorBody.cs",
-              "RelativeToolTip": "Models\\VendorBody.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "OrderNew.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\OrderNew.cs",
+              "RelativeDocumentMoniker": "Models\\OrderNew.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\OrderNew.cs",
+              "RelativeToolTip": "Models\\OrderNew.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:17:46.095Z"
+              "WhenOpened": "2025-02-07T16:43:34.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VendorsController.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\VendorsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VendorsController.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\VendorsController.cs",
+              "RelativeToolTip": "Controllers\\VendorsController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAADgvyoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:55:31.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-07T14:17:58.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminsController.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "Controllers\\AdminsController.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAIwAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T15:50:53.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NutritiffBackendDotNet.csproj",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\NutritiffBackendDotNet.csproj",
+              "RelativeDocumentMoniker": "NutritiffBackendDotNet.csproj",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\NutritiffBackendDotNet.csproj",
+              "RelativeToolTip": "NutritiffBackendDotNet.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-05T13:27:47.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersToDisplay.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\OrdersToDisplay.cs",
+              "RelativeDocumentMoniker": "Models\\OrdersToDisplay.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\OrdersToDisplay.cs",
+              "RelativeToolTip": "Models\\OrdersToDisplay.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:43:31.257Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "SubscriptionPlan.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\SubscriptionPlan.cs",
-              "RelativeDocumentMoniker": "Models\\SubscriptionPlan.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\SubscriptionPlan.cs",
-              "RelativeToolTip": "Models\\SubscriptionPlan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PlaceOrder.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\PlaceOrder.cs",
+              "RelativeDocumentMoniker": "Models\\PlaceOrder.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\PlaceOrder.cs",
+              "RelativeToolTip": "Models\\PlaceOrder.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:16:49.853Z"
+              "WhenOpened": "2025-02-07T16:43:26.15Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ShowOrder.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\ShowOrder.cs",
-              "RelativeDocumentMoniker": "Models\\ShowOrder.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\ShowOrder.cs",
-              "RelativeToolTip": "Models\\ShowOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:16:47.465Z"
+              "WhenOpened": "2025-02-07T16:43:42.772Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "PlaceOrder.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\PlaceOrder.cs",
-              "RelativeDocumentMoniker": "Models\\PlaceOrder.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\PlaceOrder.cs",
-              "RelativeToolTip": "Models\\PlaceOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:16:42.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "OrderHistory.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\OrderHistory.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\OrderHistory.cs",
               "RelativeDocumentMoniker": "Models\\OrderHistory.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\OrderHistory.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\OrderHistory.cs",
               "RelativeToolTip": "Models\\OrderHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:16:30.106Z"
+              "WhenOpened": "2025-02-07T16:43:37.76Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "OrdersToDisplay.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\OrdersToDisplay.cs",
-              "RelativeDocumentMoniker": "Models\\OrdersToDisplay.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\OrdersToDisplay.cs",
-              "RelativeToolTip": "Models\\OrdersToDisplay.cs",
+              "Title": "SubscriptionPurchase.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\SubscriptionPurchase.cs",
+              "RelativeDocumentMoniker": "Models\\SubscriptionPurchase.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\SubscriptionPurchase.cs",
+              "RelativeToolTip": "Models\\SubscriptionPurchase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:16:28.91Z"
+              "WhenOpened": "2025-02-07T16:43:21.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SubscriptionPlan.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\SubscriptionPlan.cs",
+              "RelativeDocumentMoniker": "Models\\SubscriptionPlan.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\SubscriptionPlan.cs",
+              "RelativeToolTip": "Models\\SubscriptionPlan.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:43:17.795Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "DeliveryPerson.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\DeliveryPerson.cs",
-              "RelativeDocumentMoniker": "Models\\DeliveryPerson.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\DeliveryPerson.cs",
-              "RelativeToolTip": "Models\\DeliveryPerson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ShowOrder.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\ShowOrder.cs",
+              "RelativeDocumentMoniker": "Models\\ShowOrder.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\ShowOrder.cs",
+              "RelativeToolTip": "Models\\ShowOrder.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:16:27.5Z"
+              "WhenOpened": "2025-02-07T16:43:12.054Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "CartBody.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\CartBody.cs",
-              "RelativeDocumentMoniker": "Models\\CartBody.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\CartBody.cs",
-              "RelativeToolTip": "Models\\CartBody.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Sample.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Sample.cs",
+              "RelativeDocumentMoniker": "Models\\Sample.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Sample.cs",
+              "RelativeToolTip": "Models\\Sample.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:16:25.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ApprovalRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\ApprovalRequest.cs",
-              "RelativeDocumentMoniker": "Models\\ApprovalRequest.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\ApprovalRequest.cs",
-              "RelativeToolTip": "Models\\ApprovalRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:16:16.224Z"
+              "WhenOpened": "2025-02-07T16:43:04.542Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Cart.cs",
-              "RelativeToolTip": "Models\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FeedbackComplaint.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\FeedbackComplaint.cs",
+              "RelativeDocumentMoniker": "Models\\FeedbackComplaint.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\FeedbackComplaint.cs",
+              "RelativeToolTip": "Models\\FeedbackComplaint.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:34:16.269Z"
+              "WhenOpened": "2025-02-07T16:23:58.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Favorite.cs",
+              "RelativeDocumentMoniker": "Models\\Favorite.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Favorite.cs",
+              "RelativeToolTip": "Models\\Favorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:23:53.022Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "Models\\Admin.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Admin.cs",
-              "RelativeToolTip": "Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:34:13.079Z"
+              "WhenOpened": "2025-02-07T16:19:59.648Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T16:31:46.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-05T16:30:48.469Z"
+              "Title": "MyClassDiagram.cd",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\MyClassDiagram.cd",
+              "RelativeDocumentMoniker": "MyClassDiagram.cd",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\MyClassDiagram.cd",
+              "RelativeToolTip": "MyClassDiagram.cd",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-02-07T16:19:54.644Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\proo\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
+              "Title": "Tiffin.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Tiffin.cs",
+              "RelativeDocumentMoniker": "Models\\Tiffin.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Tiffin.cs",
+              "RelativeToolTip": "Models\\Tiffin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-05T16:32:07.845Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:18:27.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:16:39.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:55:21.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApprovalRequest.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\ApprovalRequest.cs",
+              "RelativeDocumentMoniker": "Models\\ApprovalRequest.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\ApprovalRequest.cs",
+              "RelativeToolTip": "Models\\ApprovalRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:55:18.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "D:\\TiffinBOX project\\Tiffin-Delivery-and-Management-System\\back-end\\NutritiffBackendDotNet\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:55:12.009Z"
             }
           ]
         }

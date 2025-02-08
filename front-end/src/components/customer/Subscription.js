@@ -1,7 +1,8 @@
-import React from "react";
+
+
+import React, { useEffect, useState } from "react";
 import Login from "./Login";
-import { useEffect, useState } from "react";
-import { createNodejsUrl, log } from "../../utils/utils";
+import { createNodejsUrl } from "../../utils/utils";
 import Footer from "./Footer";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -9,48 +10,65 @@ import CustomerNavbar2 from "./CustomerNavbar2";
 import bgimage4 from "../../../src/images/bg4.jpg";
 
 function Subscription() {
-  // var user = sessionStorage.getItem("user");
   var isLoggedIn = sessionStorage.getItem("isLoggedIn");
-  var customerId = sessionStorage.getItem("customerId");
+  var customerId = sessionStorage.getItem("customerId") || "";
 
   const [subs, setSubs] = useState([]);
-  const [sub, setSub] = useState({
-    purchase_id: 0,
-    status: "",
-    name: "",
-    description: "",
-    price: 0.0,
-    no_of_meals: 0,
-    transaction_id: "",
-  });
   const [status, setStatus] = useState("");
 
   useEffect(() => {
-    console.log("Inside Component Did Mount");
+    console.log("Fetching subscription data...");
     select();
   }, []);
 
-  useEffect(() => {
-    console.log("Component Did Update is called..");
-  }, [subs, sub]);
-
-  const select = () => {
-    debugger;
-    var id = { customer_id: customerId };
-    var helper = new XMLHttpRequest();
-    helper.onreadystatechange = () => {
-      debugger;
-      if (helper.readyState === 4 && helper.status === 200) {
-        debugger;
-        var result = JSON.parse(helper.responseText);
-        setSubs(result);
-        setStatus(result[0].status);
+  const select = async () => {
+    try {
+      if (!customerId) {
+        console.warn("No customer ID found.");
+        setSubs([]);
+        setStatus("inactive");
+        return;
       }
-    };
-    const url = createNodejsUrl("customer/getsubscription");
-    helper.open("POST", url);
-    helper.setRequestHeader("Content-Type", "application/json");
-    helper.send(JSON.stringify(id));
+
+      const id = { customer_id: customerId };
+      const url = createNodejsUrl("customer/getsubscription");
+
+      const response = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(id),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      const result = await response.json();
+      console.log("API Response:", result);
+
+      if (Array.isArray(result) && result.length > 0) {
+        setSubs(result);
+        setStatus(result[0]?.status || "inactive");
+      } else {
+        setSubs([]);
+        setStatus("inactive");
+      }
+    } catch (error) {
+      console.error("Error fetching subscription data:", error);
+      setSubs([]);
+      setStatus("inactive");
+    }
+  };
+
+  const buy = () => {
+    if (subs.length > 0) {
+      toast.error("You already have one subscription plan.");
+    } else {
+      toast.success("Redirecting to purchase page...");
+      window.location.href = "/buy-subscription";
+    }
   };
 
   const cancel = () => {
@@ -61,10 +79,6 @@ function Subscription() {
   const active = () => {
     toast.success("Plan activated");
     setStatus("active");
-  };
-
-  const buy = () => {
-    toast.error("You already have one subscription plan");
   };
 
   if (isLoggedIn) {
@@ -120,9 +134,9 @@ function Subscription() {
                   </tr>
                 </thead>
                 <tbody>
-                  {subs.map((sub) => {
-                    return (
-                      <tr>
+                  {subs && subs.length > 0 ? (
+                    subs.map((sub, index) => (
+                      <tr key={index}>
                         <td>{sub.name}</td>
                         <td>{sub.description}</td>
                         <td>{sub.price}</td>
@@ -139,13 +153,19 @@ function Subscription() {
                               className="btn btn-success"
                               onClick={active}
                             >
-                              Active Plan
+                              Activate Plan
                             </button>
                           )}
                         </td>
                       </tr>
-                    );
-                  })}
+                    ))
+                  ) : (
+                    <tr>
+                      <td colSpan="7" className="text-center">
+                        No Subscription Found
+                      </td>
+                    </tr>
+                  )}
                 </tbody>
               </table>
             </div>
